@@ -13,5 +13,5 @@ end
 
 def using_pop_with_args(arr)
   popped_elements = arr.pop(2)
-  p popped_elements
+  puts popped_elements
 end 
