@@ -12,7 +12,8 @@ def using_pop(arr)
 end
 
 def using_pop_with_args(arr)
-  arr = arr.pop
-  arr.pop
-  p arr
+  arr_minus_one = arr.pop
+  p arr_minus_one
+  arr_minus_two = arr.pop
+  p arr_minus_two
 end 
