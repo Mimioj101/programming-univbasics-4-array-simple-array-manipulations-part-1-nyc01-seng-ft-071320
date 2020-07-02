@@ -11,7 +11,7 @@ def using_pop(arr)
   arr.pop
 end
 
-def using_pop_with_args(arr)
+def pop_with_args(arr)
   popped_elements = arr.pop(2)
   popped_elements
 end 
