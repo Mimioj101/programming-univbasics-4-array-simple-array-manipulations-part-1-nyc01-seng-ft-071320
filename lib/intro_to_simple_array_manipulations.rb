@@ -22,3 +22,9 @@ end
 def using_shift(arr)
   arr.shift
 end 
+
+
+def shift_with_args(arr)
+  shifted_elements = arr.shift(2)
+  shifted_elements
+end 
